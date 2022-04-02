@@ -6,7 +6,7 @@ const pubSub = new PubSub()
 
 const resolvers = require('./graphql/resolvers/index')
 
-const PORT = proces.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
 const { MONOGURI } = require('./config.js')
 const typeDefs = require('./graphql/typeDefs')
